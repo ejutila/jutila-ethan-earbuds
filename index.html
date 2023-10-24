@@ -8,29 +8,35 @@
     <!-- link to greensock main library and scroll plugin -->
   </head>
   <body>
-    <model-viewer id="model" src="model/earbuds.gltf" ar ar-modes="webxr scene-viewer quick-look" ios-src="model/earbuds.usdz" camera-controls poster="images/poster.webp" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
+    <model-viewer id="model" src="model/ej-earbuds.gltf" ar ar-modes="webxr scene-viewer quick-look" ios-src="model/earbuds.usdz" camera-controls poster="images/poster.jpeg" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
 
       <!-- in this version, I have manually added, id="hotspot-1, id="hotspot-2", id="hotspot-3", id="hotspot-4"" -->
-
-      <button class="Hotspot" slot="hotspot-1" data-position="22.114881038306805m 76.41863141465969m 92.72411936367459m" data-normal="0m 3.422854333301474e-8m 0.9999999999999996m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation" id="hotspot-1">
-          </div>
-      </button>
-      
-      <button class="Hotspot" slot="hotspot-2" data-position="39.77344034970514m 35.166245058302174m -60.072171234357924m" data-normal="0.9907333466758325m -0.04850912905944068m 0.12686331298842657m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation" id="hotspot-2">
-          </div>
-      </button>
-      
-      <button class="Hotspot" slot="hotspot-3" data-position="2.4492803380076666m 10.895113621640228m -85.35108450441453m" data-normal="-0.09319883119990514m 0.7267314834938743m -0.6805698559014823m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation" id="hotspot-3">
-          </div>
-      </button>
-      
-      <button class="Hotspot" slot="hotspot-4" data-position="8.209706351369618m -74.79136002933947m 11.903197074480694m" data-normal="0.018820622483499312m -0.18212597696599156m -0.9830950679784314m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation" id="hotspot-4">        
-          </div>
-      </button>
+        <button class="Hotspot" slot="hotspot-1" data-position="0.08504121671040056m 0.009497777317206718m -0.7312930598333649m" data-normal="0.5554908675263951m -0.19148058558035935m -0.8091755566257396m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation" id="hotspot-1">
+              <h2>Charging Port</h2>
+              <p></p>
+            </div>
+        </button><button class="Hotspot" slot="hotspot-2" data-position="0.15192777119461323m -0.03813826907203249m -0.23174620038363047m" data-normal="0.9830252459602666m 0.181735665692727m -0.025169696461794157m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation" id="hotspot-2">
+              <h2>Speaker</h2>
+              <p></p>
+            </div>
+        </button><button class="Hotspot" slot="hotspot-3" data-position="-0.22383385694398125m 0.0769838875368532m -0.5379597563023295m" data-normal="-0.999905099081978m 0.0014801687290205306m -0.013696785403652139m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation" id="hotspot-3">
+              <h2>Touch Media Controls</h2>
+              <p>Easy to use touch controls to use less of your phone while still having full control of what you're playing.</p>
+            </div>
+        </button><button class="Hotspot" slot="hotspot-4" data-position="0.12975769623872796m -0.049336263004402386m 0.11300875667332255m" data-normal="0.9293055453294333m 0.09957335705683905m -0.35563513603747887m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation" id="hotspot-4">
+            <h2>Noise-Cancelling Eartips</h2>
+            <p></p>
+            </div>
+        </button><button class="Hotspot" slot="hotspot-5" data-position="-0.1743919605779214m 0.5093124954179323m -0.49328052087396845m" data-normal="0.9999139807091203m -0.0009994786555630613m 0.013077928920833357m" data-visible="visible">
+            <div class="HotspotAnnotation" id="hotspot-5">
+              <h2>Flexible Ear Hook</h2>
+              <p>The ear hook of the headphones allows for an easier more secure listening experience with the lack of potentially falling out of your ears.</p>
+            </div>
+        </button>
       <button slot="ar-button" id="ar-button">
           View in your space
       </button>

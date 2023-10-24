@@ -42,14 +42,14 @@
     //console.log(this.slot);
     //console.log(`#${this.slot}`);
     //since the slot value matches the id value I can use the slot value as a selector to get to the div I want.
-    let selected = document.querySelector(`#${this.slot}`);
+    let selected = document.querySelector(`#${this.getAttribute("slot")}`);
     gsap.to(selected, 1, { autoAlpha: 1 });
   }
 
   function hideInfo() {
     //console.log(this.slot);
     //console.log(`#${this.slot}`);
-    let selected = document.querySelector(`#${this.slot}`);
+    let selected = document.querySelector(`#${this.getAttribute("slot")}`);
     gsap.to(selected, 1, { autoAlpha: 0 });
   }
 
